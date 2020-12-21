@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Santa Tracker</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap" rel="stylesheet" />
+	<link rel="shortcut icon" href="santa.svg" type="image/x-icon" />
+</head>
+
+<body>
+	<section id="intro">
+		<img src="santa.svg" id="santa"/>
+      <h1>Santa Tracker</h1>
+      <p>
+        Hey kids! Do you want to see <strong>exactly</strong> where Santa is right now? Look no further! 
+      </p>
+    </section>
+    <button id="button" onclick="locate()">Locate</button>
+    <table id = "table">
+      <thread>
+        <tr> 
+          <th style = "width: 30%>">Place</th>
+          <th style = "width: 40%">Time</th>
+          <th style = "width: 30%">Packages</th>
+        </tr>
+      </thread>
+    </table>
+  </body>
+  <script src="script.js"></script>
+</html>
